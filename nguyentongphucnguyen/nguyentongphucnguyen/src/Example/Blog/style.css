@@ -1,0 +1,26 @@
+.Blog_box{
+    width:250px ;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 35px 0px rgb(148 146 245 / 15%);
+    background-color:aliceblue;
+    padding: 10px
+}
+
+.Blog_box .Blog_img{
+    width: 220px;
+    height: 180Px;
+}
+
+.Blog_box .blog_title{
+    font-weight: bold;
+    color: #010101;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.Blog_box .Blog_summary{
+    text-align: left;
+    color:#555;
+    font-size: 0.8em;
+}

@@ -1,0 +1,15 @@
+.Song_pic{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Song_pic img{
+    width: 180px;
+    height: 180px;
+}
+
+.Song_pic P{
+    font-weight: bold;
+}
