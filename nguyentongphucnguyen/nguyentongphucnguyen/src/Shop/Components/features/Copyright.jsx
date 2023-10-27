@@ -11,7 +11,7 @@ export default function Copyright() {
       <a href="1b"><img src="shop/assets/img/visa.png" alt="payment" /></a>
       <a href="1b"><img src="shop/assets/img/disc.png" alt="payment" /></a>
     </p>
-    <span>Copyright © 2022<br /> React Shop</span>
+    <span>Copyright © 2023<br /> Newwyn Shop</span>
   </div>
 </div>
 

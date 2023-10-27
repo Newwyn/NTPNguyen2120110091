@@ -7,8 +7,8 @@ export default function Header() {
     <div className="row">
       <div className="span4">
         <h1>
-          <a className="logo" href="index.html"><span>React Shop</span> 
-            <img src="shop/assets/img/logo-bootstrap-shoping-cart.png" alt="bootstrap sexy shop" />
+          <a className="logo" href="index.html"><span>Newwyn Shop</span> 
+            <img src="shop/assets/img/logo2.png" alt="Newwyn" />
           </a>
         </h1>
       </div>
@@ -16,16 +16,12 @@ export default function Header() {
         <div className="offerNoteWrapper">
           <h1 className="dotmark">
             <i className="icon-cut" />
-            Thiên đường mỹ phẩm chính hãng
+            Thế giới đồ chơi Công Nghệ chính hãng
           </h1>
         </div>
       </div>
       <div className="span4 alignR">
-        <p><br /> <strong> Support (24/7) :  0800 1234 678 </strong><br /><br /></p>
-        <span className="btn btn-mini">[ 2 ] <span className="icon-shopping-cart" /></span>
-        <span className="btn btn-warning btn-mini">$</span>
-        <span className="btn btn-mini">£</span>
-        <span className="btn btn-mini">€</span>
+        <p><br /> <strong> Hotline hỗ trợ (24/7) :  0000 999 333 </strong><br /><br /></p>
       </div>
     </div>
   </header>

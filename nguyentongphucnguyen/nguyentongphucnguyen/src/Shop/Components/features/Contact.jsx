@@ -41,7 +41,7 @@ function Contact() {
           await ContactApi.add(data);
           document.getElementById("submit").innerHTML = "Send Contact";
 
-          toast.success("thanh cong");
+          toast.success("thành công");
           document.getElementById("ContactForm").reset();
           setEmail("");
           setName("");
@@ -57,32 +57,31 @@ function Contact() {
   };
   return (
     <div className="well well-small">
-      <h1>Visit us</h1>
       <hr className="soften" />
       <div className="row-fluid">
         <div className="span6 relative">
           <div className="absoluteBlk" style={{ width: "90%" }}>
             <div className="well wellsmall">
-              <h4>Contact Details</h4>
+              <h4>CHI TIẾT LIÊN HỆ</h4>
               <h5>
-                2601 Mission St.
+                90/05 Phước Bình.
                 <br />
-                San Francisco, CA 94110
+                TPHCM, 
                 <br />
                 <br />
-                info@mysite.com
+                newwyn1995@gmail.com
                 <br />
-                Tel 123-456-6780
+                Tel 0000 9999 333
                 <br />
-                Fax 123-456-5679
+                Fax 123-456-5678
                 <br />
-                web:wwwmysitedomain.com
+                web:www.newwyn.com
               </h5>
             </div>
           </div>
         </div>
         <div className="span4">
-          <h4>Email Us</h4>
+          <h4>Mail liên hệ</h4>
           <div
             style={{ color: "red" }}
             dangerouslySetInnerHTML={{ __html: errMsg }}
@@ -96,7 +95,7 @@ function Contact() {
               <div className="control-group">
                 <input
                   type="text"
-                  placeholder="name"
+                  placeholder="Tên"
                   className="input-xlarge"
                   onChange={handleNameChange}
                 />
@@ -104,7 +103,7 @@ function Contact() {
               <div className="control-group">
                 <input
                   type="text"
-                  placeholder="email"
+                  placeholder="Email"
                   className="input-xlarge"
                   onChange={handleEmailChange}
                 />
@@ -120,7 +119,7 @@ function Contact() {
                 />
               </div>
               <button className="shopBtn" type="submit" id="submit">
-                Send Contact
+                Gửi liên hệ
               </button>
             </fieldset>
           </form>
